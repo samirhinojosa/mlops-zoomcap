@@ -1,0 +1,23 @@
+[project]
+name = "mlops-zoomcap"
+version = "0.1.0"
+description = "Free MLOps course from DataTalks.Club"
+authors = [
+    {name = "Samir Hinojosa", email = "samirhinojosa@gmail.com"},
+]
+dependencies = [
+    "jupyterlab>=4.2.0",
+    "pandas>=2.2.2",
+    "pyarrow>=16.1.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
